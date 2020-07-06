@@ -1,0 +1,33 @@
+.DS_Store
+<<<<<<< HEAD
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+=======
+.project
+node_modules/
+config/dev.server.js
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/src/loacle/**/*.json
+.vscode
+package-lock.json
+
+# Editor directories and files
+.idea
+>>>>>>> 86733fcdb825c741c1447ce1f21f029f2e1e3cf2
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

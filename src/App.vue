@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
+    <wbutton :title="msg"></wbutton>
   </div>
 </template>
 
 <script>
+  import wbutton from "./lib/wbutton";
 export default {
   name: 'app',
+  components: {wbutton},
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to what-ui'
     }
   }
 }
 </script>
 
-<style lang="scss">
+<style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
